@@ -22,7 +22,7 @@ File.readlines("./ghcnd-stations.txt").each do |line|
     :wmoid => row[8].to_i,
   }
 
-  obj['loc'] = {
+  obj[:loc] = {
     :type => 'Point',
     :coordinates => [ obj[:lng], obj[:lat] ],
   }
