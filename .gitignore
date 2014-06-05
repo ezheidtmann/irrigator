@@ -1,3 +1,11 @@
+# Ignore build targets
+/public/app.css
+/public/app.js
+
+# Other project-specific ignores
+/node_modules 
+
+# Standard ignores below.
 *.gem
 *.rbc
 /.config
